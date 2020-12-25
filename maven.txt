@@ -1,0 +1,18 @@
+<build>
+        <plugins>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId> 
+               <artifactId>maven-jar-plugin</artifactId>
+               <version>3.2.0</version>
+               
+               <configuration>
+                   <archive>
+                       <index>true</index>
+                       <manifest>
+                           <mainClass>paquete.Aplicacion</mainClass>  <!--recuerda que aqui va tu clase principal-->
+                       </manifest> 
+                   </archive>
+               </configuration>
+           </plugin> 
+        </plugins>
+</build>
